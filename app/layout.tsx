@@ -1,13 +1,13 @@
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import favicon from "app/assets/favicon.ico";
+import Footer from "app/components/footer";
+import { Navbar } from "app/components/nav";
+import "app/global.css";
+import { baseUrl } from "app/sitemap";
 import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
 import type { Metadata } from "next";
-import favicon from "./assets/favicon.ico";
-import Footer from "./components/footer";
-import { Navbar } from "./components/nav";
-import "./global.css";
-import { baseUrl } from "./sitemap";
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
