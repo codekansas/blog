@@ -10,18 +10,18 @@ export default function Page() {
       <div className="my-4">
         I am tremendously grateful to be alive. I have loving parents who raised
         me with thought and care, and equipped me with the mental armor to do
-        important things in the face of difficulty. I have a beautiful,
+        what is important in the face of difficulty. I have a beautiful,
         brilliant wife who epitomizes Plato's concept of the other half, and
         makes me whole in a way that is beyond words. I am surrounded by
-        brilliant, fascinating people doing amazing things, who root for my
-        success instead of against it.
+        brilliant, fascinating people doing amazing work with the gifts they
+        possess, and who root for my success instead of against it.
       </div>
       <div className="my-4">
-        I view my purpose in this life as to leave my own corner of the universe
-        better than I found it for the people that come after me. Like most
+        I view my purpose in this life as to leave my corner of the universe
+        better than I found it for the people who come after me. Like most
         people, I am not perfect, and I often struggle, change my mind, and make
         mistakes, but I believe that I have something important to contribute to
-        the world and I have a high enough tolerance for discomfort to manifest
+        the world, and I have a high enough tolerance for discomfort to manifest
         it.
       </div>
       <div className="my-4">
