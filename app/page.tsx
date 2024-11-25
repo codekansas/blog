@@ -1,3 +1,5 @@
+import Automaton from "app/components/automaton";
+
 export default function Page() {
   return (
     <section>
@@ -40,6 +42,9 @@ export default function Page() {
           here
         </a>
         .
+      </div>
+      <div className="flex justify-center mt-8">
+        <Automaton />
       </div>
     </section>
   );
