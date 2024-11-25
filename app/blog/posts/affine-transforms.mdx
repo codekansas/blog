@@ -4,9 +4,16 @@ publishedAt: "2024-03-26"
 summary: Some notes on affine transformation conventions.
 ---
 
+import Image from "next/image";
+
 A perpetual pain point for people working on computer vision is dealing with affine transformations. Usually you have a diagram that looks something like this:
 
-![KITTI dataset coordinate frames](./images/affine-transforms/kitti-coordinate-frames.webp)
+<Image
+  src="/images/affine-transforms/kitti-coordinate-frames.webp"
+  alt="KITTI coordinate frames"
+  width={500}
+  height={500}
+/>
 
 Each of the coordinate frames can be represented as a `4x4` matrix in Numpy. For the three sensors in the image above we might have something like this:
 
